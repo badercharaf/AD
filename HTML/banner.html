@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>banner ad</title>
+	<style>
+
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+		.container {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			background-color: #e0e0e0;
+			height: 50px;
+			width: 360px;
+			padding: 5px;
+			box-sizing: border-box;
+			font-family: Arial, sans-serif;
+			font-size: 14px;
+			color: #000;
+			text-decoration: none;
+		}
+
+		.image {
+			height: 40px;
+			width: 40px;
+			margin-right: 5px;
+			flex-shrink: 0;
+		}
+
+		.content {
+			flex-grow: 1;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+
+		.title {
+			font-weight: bold;
+			font-size: 16px;
+			margin: 0;
+		}
+
+		.message {
+			margin: 0;
+		}
+
+		.arrow {
+			background-color: #4CAF50;
+			color: white;
+			margin-left: 10px;
+		}
+
+		
+	</style>
+</head>
+<body>
+	<a href="https://example.com" class="container">
+
+		<img src="https://badercharaf.github.io/bcapps/img/BCTube.jpeg" alt="banner image" class="image">
+
+		<div class="content">
+
+			<h2 class="title">BCTube</h2>
+
+			<p class="message">Download BCTube now</p>
+
+		</div>
+		<img src="" alt="arrow" class="arrow">
+
+	</a>
+</body>
+</html>
